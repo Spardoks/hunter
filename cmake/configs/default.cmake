@@ -438,6 +438,7 @@ hunter_default_version(pluginlib VERSION 1.12.1-p0)
 hunter_default_version(poly2tri VERSION 1.0.0)
 hunter_default_version(polyclipping VERSION 4.8.8-p0) # for Assimp
 hunter_default_version(presentproto VERSION 1.0)
+hunter_default_version(print VERSION 1.0.0)
 hunter_default_version(prometheus-cpp VERSION 0.6.0-p2)
 hunter_default_version(protobuf-c VERSION 1.3.0-p1)
 hunter_default_version(pthread-stubs VERSION 0.4)
@@ -633,5 +634,3 @@ if(ANDROID)
     # TODO: Add more versions
   endif()
 endif()
-
-hunter_default_version(print VERSION 1.0.0)
