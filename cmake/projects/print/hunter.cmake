@@ -31,5 +31,4 @@ hunter_cmake_args(
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(print)
-hunter_configuration_types(print CONFIGURATION_TYPES Release)
 hunter_download(PACKAGE_NAME print)
